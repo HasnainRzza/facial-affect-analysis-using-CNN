@@ -87,17 +87,7 @@ facial-analysis-dataset-prep/
     └── aug_photos/           # Directory for augmented images
 ```
 
-### Improvement
+### Contact
 ```bash
-
-Key improvements made:
-- Better formatting with proper Markdown syntax
-- Clearer section organization
-- Improved code block formatting
-- More professional tone
-- Better visual hierarchy
-- Consistent structure throughout
-- Removed redundant information
-- Added proper emoji-free formatting for professional use
+worflow.raza@gmail.com
 ```
-

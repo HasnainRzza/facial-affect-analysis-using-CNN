@@ -41,7 +41,7 @@ pip install albumentations==1.4.3 numpy pandas opencv-python-headless
  
  ### Setup
  ```bash
-git clone https://github.com/Hasnain_Rzza/facial-affect-analysis.git
+git clone https://github.com/HasnainRzza/facial-affect-analysis.git
 cd facial-analysis-dataset-prep
 ```
 

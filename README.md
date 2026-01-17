@@ -93,4 +93,4 @@ facial-analysis-dataset-prep/
 ```
 Email: workflow.raza@gmail.com
 ```
-[Linkedin] (https://www.linkedin.com/in/muhammad-hasnain-mhr/)
+[Linkedin](https://www.linkedin.com/in/muhammad-hasnain-mhr/)

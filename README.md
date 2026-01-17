@@ -4,7 +4,7 @@ A Jupyter notebook for preprocessing facial analysis datasets, extracting images
 
 ## Project Overview
 
-This repository contains a Jupyter notebook (`i221996_01.ipynb`) designed to extract and organize a dataset for facial analysis or emotion recognition tasks. The notebook processes a ZIP archive containing images and annotations (expression, valence, arousal, and landmarks) and compiles them into a structured Pandas DataFrame.
+This project is designed to extract and organize a dataset for facial analysis or emotion recognition tasks. The notebook processes a ZIP archive containing images and annotations (expression, valence, arousal, and landmarks) and compiles them into a structured Pandas DataFrame.
 
 This serves as a preprocessing step for machine learning pipelines, with support for potential image augmentation using the Albumentations library.
 
@@ -38,29 +38,30 @@ The dataset is sourced from a ZIP file (`Facial_AFFECT.zip`) and includes:
 ```bash
 pip install albumentations==1.4.3 numpy pandas opencv-python-headless
 ```
- 
- ### Setup
- ```bash
+
+### Setup
+
+```bash
 git clone https://github.com/HasnainRzza/facial-affect-analysis.git
 cd facial-analysis-dataset-prep
 ```
 
-### Load Execution
-```bash
-1. Update the ARCHIVE_PATH in the notebook to point to your local dataset
-2. Run all cells sequentially
+## Usage
+
+1. Update the `ARCHIVE_PATH` in the notebook to point to your local dataset.
+2. Run all cells sequentially.
+
+## Output Example
+
 ```
-
-### Output
-
-```bash
 path	expression	valence	arousal	landmark
-/content/dataset_space/Dataset/Dataset/images/...	0	-0.176846	-0.077640	-0.006667
-...	0	-0.367789	0.183895	44.951579
+/content/dataset_space/Dataset/Dataset/images/...\t0\t-0.176846\t-0.077640\t-0.006667
+...\t0\t-0.367789\t0.183895\t44.951579
 ```
 
-### Results
-```bash
+## Results Snapshot
+
+```
 Final metrics:
 Accuracy  : 0.5341
 F1        : 0.5102
@@ -74,8 +75,9 @@ LndCCC    : -0.0000
 LndCorr   : -0.0012
 ```
 
-### Structure
-```bash
+## Project Structure
+
+```
 facial-analysis-dataset-prep/
 ├── i221996_01.ipynb          # Main Jupyter notebook
 ├── README.md                 # Project documentation
@@ -87,7 +89,9 @@ facial-analysis-dataset-prep/
     └── aug_photos/           # Directory for augmented images
 ```
 
-### Contact
-```bash
-worflow.raza@gmail.com
+## Contact
+
+```
+Email: workflow.raza@gmail.com
+[Linkedin] (https://www.linkedin.com/in/muhammad-hasnain-mhr/)
 ```
